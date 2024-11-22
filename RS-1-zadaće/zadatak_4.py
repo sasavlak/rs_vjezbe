@@ -25,4 +25,4 @@ while broj > 0:
     broj += 2
 
 #Kada broj dosegne vrijednost 4 izvršava se broj += 2 i broj se vraća na 5. 
-#Ovo uzrokuje beskonačnu petlju jer se broj ne može smanjiti do 0 zbog uvjeta broj < 5 i dodavanja broja 2.
+#Ovo uzrokuje beskonačnu petlju jer se broj, ne može smanjiti do 0 zbog uvjeta broj < 5 i dodavanja broja 2.
