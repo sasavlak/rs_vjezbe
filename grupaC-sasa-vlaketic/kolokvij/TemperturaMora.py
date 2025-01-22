@@ -9,11 +9,6 @@ class TemperaturaMora:
     def dnevna_promjena(self, nova_temperatura, novi_datum):
         self.temperatura_mora = nova_temperatura
         self.datum = novi_datum
-#print(f"{self.datum.strftime('%d-%m-%Y')} - {self.grad}: {self.temperatura_mora}C")
-
-   #def ispis(self)
-   #print(f"{self.datum.strftime('%d-%m-%Y')} - {self.grad}: {self.temperatura_mora}C")
-
 
     def ispis(self):
         datum = self.datum.strftime ("%d-%m-%Y ")
