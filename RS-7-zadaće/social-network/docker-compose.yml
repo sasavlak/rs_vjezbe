@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  authapi:
+    build: ./authapi
+    ports:
+      - "9000:9000"
+    networks:
+      - interna_mreza
+
+  socialapi:
+    build: ./socialapi
+    ports:
+      - "3500:3500"
+    depends_on:
+      - authapi
+    networks:
+      - interna_mreza
+
+networks:
+  interna_mreza:
+    driver: bridge
